@@ -11,7 +11,14 @@ end
 
 gem 'jquery-rails'
 
+gem 'bootstrap-sass'
+
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'uuidtools'
+
+
+# Angular
+gem 'angularjs-rails', '>=1.2.0.rc1'
+gem 'ngmin-rails'

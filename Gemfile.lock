@@ -27,8 +27,11 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    angularjs-rails (1.2.16)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.7)
+    bootstrap-sass (3.1.1.1)
+      sass (~> 3.2)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -58,6 +61,8 @@ GEM
     mime-types (1.25.1)
     minitest (5.3.3)
     multi_json (1.10.0)
+    ngmin-rails (0.4.0)
+      rails (>= 3.1)
     oauth (0.4.7)
     omniauth (1.2.1)
       hashie (>= 1.2, < 3)
@@ -124,9 +129,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angularjs-rails (>= 1.2.0.rc1)
+  bootstrap-sass
   coffee-rails (~> 4.0.1)
   devise
   jquery-rails
+  ngmin-rails
   omniauth
   omniauth-twitter
   rails (= 4.1.1)
