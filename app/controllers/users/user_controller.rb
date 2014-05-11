@@ -6,7 +6,7 @@ class Users::UsersController < Devise::SessionsController
 
     render status: 200,
       json: {
-        success: !User.find_by_name(params[:name]).blank?
+        success: !User.find_by(name: params[:name]).blank?
       }
   end
 
